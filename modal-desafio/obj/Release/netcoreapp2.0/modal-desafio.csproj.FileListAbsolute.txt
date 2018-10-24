@@ -1,0 +1,12 @@
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\in.txt
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\modal-desafio.deps.json
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\modal-desafio.runtimeconfig.json
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\modal-desafio.runtimeconfig.dev.json
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\modal-desafio.dll
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\bin\Release\netcoreapp2.0\modal-desafio.pdb
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.csproj.CoreCompileInputs.cache
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.AssemblyInfoInputs.cache
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.AssemblyInfo.cs
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.dll
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.pdb
+C:\Users\ptandrade\Repos\mine\modal-desafio\modal-desafio\obj\Release\netcoreapp2.0\modal-desafio.csprojAssemblyReference.cache
