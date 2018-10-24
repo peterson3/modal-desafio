@@ -1,0 +1,17 @@
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.csprojResolveAssemblyReference.cache
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.csproj.CoreCompileInputs.cache
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.AssemblyInfoInputs.cache
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.AssemblyInfo.cs
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\in.txt
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.tests.deps.json
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.tests.runtimeconfig.json
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.tests.runtimeconfig.dev.json
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.tests.dll
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.tests.pdb
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.dll
+X:\Repos\modal-desafio\modal-desafio.tests\bin\Debug\netcoreapp2.0\modal-desafio.pdb
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.dll
+X:\Repos\modal-desafio\modal-desafio.tests\obj\Debug\netcoreapp2.0\modal-desafio.tests.pdb

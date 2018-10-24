@@ -1,0 +1,12 @@
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\in.txt
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\modal-desafio.deps.json
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\modal-desafio.runtimeconfig.json
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\modal-desafio.runtimeconfig.dev.json
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\modal-desafio.dll
+X:\Repos\modal-desafio\modal-desafio\bin\Debug\netcoreapp2.0\modal-desafio.pdb
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.csprojResolveAssemblyReference.cache
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.csproj.CoreCompileInputs.cache
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.AssemblyInfoInputs.cache
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.AssemblyInfo.cs
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.dll
+X:\Repos\modal-desafio\modal-desafio\obj\Debug\netcoreapp2.0\modal-desafio.pdb
