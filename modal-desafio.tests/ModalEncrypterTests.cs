@@ -14,12 +14,22 @@ namespace modal_desafio.tests
         }
 
         [TestMethod]
+        [Ignore]
         [Timeout(30000)]
         public void GetNextWord_When_zzzz_ShouldReturn_aaaaa()
         {
             var modalEncrypter = new ModalEncrypter();
             var nextWord = modalEncrypter.GetNextWord("zzzz");
             Assert.AreEqual("aaaaa", nextWord);
+        }
+
+        [TestMethod]
+        [Timeout(30000)]
+        public void GetNextWord_When_zzzy_ShouldReturn_zzzz()
+        {
+            var modalEncrypter = new ModalEncrypter();
+            var nextWord = modalEncrypter.GetNextWord("zzzy");
+            Assert.AreEqual("zzzz", nextWord);
         }
 
         [TestMethod]
@@ -79,6 +89,7 @@ namespace modal_desafio.tests
 
         [TestMethod]
         [Timeout(30000)]
+        [Ignore]
         public void Encrypt_When_vwxyz_ShouldReturn_83681()
         {
             var modalEncrypter = new ModalEncrypter();
@@ -109,6 +120,46 @@ namespace modal_desafio.tests
             var encryptionResult = modalEncrypter.Encrypt("are");
             Assert.AreEqual(0, encryptionResult);
         }
+
+        [TestMethod]
+        public void WordToIntArray_When_a_ShouldReturn_00001()
+        {
+            var modalEncrypter = new ModalEncrypter();
+            var arrayResult = modalEncrypter.WordToIntArray("a");
+
+            Assert.AreEqual(0, arrayResult[0]);
+            Assert.AreEqual(0, arrayResult[1]);
+            Assert.AreEqual(0, arrayResult[2]);
+            Assert.AreEqual(0, arrayResult[3]);
+            Assert.AreEqual(1, arrayResult[4]);
+        }
+
+        [TestMethod]
+        public void WordToIntArray_When_zzzz_ShouldReturn_026262626()
+        {
+            var modalEncrypter = new ModalEncrypter();
+            var arrayResult = modalEncrypter.WordToIntArray("zzzz");
+
+            Assert.AreEqual(0, arrayResult[0]);
+            Assert.AreEqual(26, arrayResult[1]);
+            Assert.AreEqual(26, arrayResult[2]);
+            Assert.AreEqual(26, arrayResult[3]);
+            Assert.AreEqual(26, arrayResult[4]);
+        }
+
+        [TestMethod]
+        public void WordToIntArray_When_aaaaa_ShouldReturn_11111()
+        {
+            var modalEncrypter = new ModalEncrypter();
+            var arrayResult = modalEncrypter.WordToIntArray("aaaaa");
+
+            Assert.AreEqual(1, arrayResult[0]);
+            Assert.AreEqual(1, arrayResult[1]);
+            Assert.AreEqual(1, arrayResult[2]);
+            Assert.AreEqual(1, arrayResult[3]);
+            Assert.AreEqual(1, arrayResult[4]);
+        }
+
 
     }
 }
