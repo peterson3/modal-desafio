@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace modal_desafio
 {
@@ -7,24 +8,17 @@ namespace modal_desafio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("/***Desafio Modal***/");
+            Console.WriteLine("/***Desafio Modal***/\n");
             var words = System.IO.File.ReadAllLines("in.txt");
             var modalEncrypter = new ModalEncrypter();
 
             foreach (var word in words)
             {
-                //Console.WriteLine(word + " -> "
-                //    + WordToIntArray(word)[0] + " "
-                //    + WordToIntArray(word)[1] + " "
-                //    + WordToIntArray(word)[2] + " "
-                //    + WordToIntArray(word)[3] + " "
-                //    + WordToIntArray(word)[4] + " -> "
-                //    + IntArrayToWord(WordToIntArray(word)));
-
-                //Console.WriteLine(Encrypt(word).ToString());
-
-                //Console.WriteLine(word + " -> " + GetNextWord(word));
-                Console.WriteLine(word + " -> " + modalEncrypter.Encrypt(word));
+                Stopwatch timer = new Stopwatch();
+                timer.Start();
+                var encrypted = modalEncrypter.Encrypt(word);
+                timer.Stop();
+                Console.WriteLine(word + "\t->\t" + encrypted.ToString() + " \t EncTime: " + timer.Elapsed.ToString());
             }
             Console.ReadKey();
         }

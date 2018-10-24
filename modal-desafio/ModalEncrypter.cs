@@ -10,57 +10,19 @@ namespace modal_desafio
         {
             var charCodes = WordToIntArray(word);
 
-            if (charCodes[4] != 26)
+            bool shouldSumNext = true;
+            for (int i=charCodes.Length-1; (i>=0 && shouldSumNext); i--)
             {
-                charCodes[4]++;
-            }
-            else
-            {
-                charCodes[4] = 1;
-                if (charCodes[3] != 26)
+                charCodes[i]++;
+                charCodes[i] = charCodes[i] % 27;
+                if (charCodes[i] == 0)
                 {
-                    charCodes[3]++;
+                    charCodes[i] = 1;
+                    shouldSumNext = true;
                 }
                 else
-                {
-                    charCodes[3] = 1;
-                    if (charCodes[2] != 26)
-                    {
-                        charCodes[2]++;
-                    }
-                    else
-                    {
-                        charCodes[2] = 1;
-                        if (charCodes[1] != 26)
-                        {
-                            charCodes[1]++;
-                        }
-                        else
-                        {
-                            Console.ReadKey();
-                            charCodes[1] = 1;
-                            if (charCodes[0] != 26)
-                            {
-                                Console.ReadKey();
-                                charCodes[0]++;
-                            }
-                            else
-                            {
-                                Console.ReadKey();
-                                //do nth
-                            }
-                        }
-                    }
-                }
+                    shouldSumNext = false;
             }
-
-            Console.WriteLine("NEXT: [0]= " + charCodes[0] + " " +
-                           "[1]= " + charCodes[1] + " " +
-                           "[2]= " + charCodes[2] + " " +
-                           "[3]= " + charCodes[3] + " " +
-                           "[4]= " + charCodes[4]);
-
-
             return IntArrayToWord(charCodes);
         }
 
@@ -88,8 +50,12 @@ namespace modal_desafio
             int[] codeArray = new int[5];
             var zeroComplete = 5 - (codes.Count % 5);
 
-            for (int i = 0; i < zeroComplete; i++)
-                codes.Insert(0, 0);
+            if (zeroComplete < 5)
+            {
+                for (int i = 0; i < zeroComplete; i++)
+                    codes.Insert(0, 0);
+            }
+       
 
             return codes.ToArray();
         }
@@ -106,7 +72,6 @@ namespace modal_desafio
 
                 if (isValid(startString))
                     value++;
-                //Console.WriteLine("nextString= " + startString + " ---  word= " + word);
             }
             return value;
         }

@@ -14,8 +14,6 @@ namespace modal_desafio.tests
         }
 
         [TestMethod]
-        [Ignore]
-        [Timeout(30000)]
         public void GetNextWord_When_zzzz_ShouldReturn_aaaaa()
         {
             var modalEncrypter = new ModalEncrypter();
@@ -24,7 +22,6 @@ namespace modal_desafio.tests
         }
 
         [TestMethod]
-        [Timeout(30000)]
         public void GetNextWord_When_zzzy_ShouldReturn_zzzz()
         {
             var modalEncrypter = new ModalEncrypter();
@@ -88,8 +85,6 @@ namespace modal_desafio.tests
         }
 
         [TestMethod]
-        [Timeout(30000)]
-        [Ignore]
         public void Encrypt_When_vwxyz_ShouldReturn_83681()
         {
             var modalEncrypter = new ModalEncrypter();
